@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thorat - Products</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Header -->
+    <header class="header" id="header" style="background-color: rgba(11, 13, 38, 0.95); padding: 15px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+        <div class="container-fluid header-inner">
+            <div class="logo">
+                <a href="index.html" style="border:none; padding:0; display:flex; flex-direction:column; align-items:center; text-decoration:none;">
+                    <img src="logo.png" alt="Thorat" id="site-logo">
+                    <div class="logo-subtext">flow controls pvt.ltd</div>
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li class="nav-dropdown">
+                        <a href="#">Login <i class="fas fa-chevron-down" style="font-size: 0.8em; margin-left: 5px;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Admin Panel</a></li>
+                            <li><a href="#">Vendor Portal</a></li>
+                            <li><a href="#">Customer Portal</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <button class="icon-btn"><i class="fas fa-search"></i></button>
+                <a href="#" class="btn btn-primary">Get in touch</a>
+                <button class="menu-toggle" id="menu-toggle" style="display: none;">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <!-- Products Section -->
+        <section class="products-section section-padding" id="products">
+            <div class="container">
+                <div class="section-header-flex gs-reveal-up">
+                    <div>
+                        <span class="subtitle">Complete Range</span>
+                        <h2 class="h2-title">All Products</h2>
+                    </div>
+                </div>
+
+                <div class="products-grid mt-5">
+                    <!-- Product 1 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.1">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop" alt="Industrial Valve">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Industrial Valve V-200</h3>
+                            <p class="product-desc">High-pressure valve for industrial applications.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.2">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1565515269784-0618037abf3c?q=80&w=600&auto=format&fit=crop" alt="Heavy Duty Motor">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Heavy Duty Motor M5</h3>
+                            <p class="product-desc">Efficient and reliable motor for heavy machinery.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.3">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1580983546590-bdf9753e82bb?q=80&w=600&auto=format&fit=crop" alt="Steel Pipes">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Galvanized Steel Pipes</h3>
+                            <p class="product-desc">Durable steel pipes for factory construction.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.1">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=600&auto=format&fit=crop" alt="Control Panel">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Smart Control Panel</h3>
+                            <p class="product-desc">Advanced control systems for automation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.2">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1513828751499-19fc18d9fb9c?q=80&w=600&auto=format&fit=crop" alt="Hydraulic Pump">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Hydraulic Pump H-X</h3>
+                            <p class="product-desc">High-capacity hydraulic pumps.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="product-card gs-reveal-up" data-delay="0.3">
+                        <div class="product-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=600&auto=format&fit=crop" alt="Factory Conveyor">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Conveyor System Belt</h3>
+                            <p class="product-desc">Optimized conveyor belts for production lines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand gs-reveal-up">
+                    <div class="footer-logo-wrapper">
+                        <img src="logo.png" alt="Thorat" class="footer-logo-img">
+                        <div class="footer-logo-subtext">flow controls pvt.ltd</div>
+                    </div>
+                    <p class="mt-3">Building the future of industry with state-of-the-art factory solutions, reliable engineering, and sustainable manufacturing practices.</p>
+                    <div class="social-links mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links gs-reveal-up" data-delay="0.1">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Latest Projects</a></li>
+                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links gs-reveal-up" data-delay="0.2">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Industrial Engineering</a></li>
+                        <li><a href="#">Manufacturing Solutions</a></li>
+                        <li><a href="#">Strategic Planning</a></li>
+                        <li><a href="#">Factory Construction</a></li>
+                        <li><a href="#">Quality Assurance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact gs-reveal-up" data-delay="0.3">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 8454 Oak Avenue, New York, NY 10018, United States</li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@thorat.com">info@thorat.com</a></li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+18005554433">+1 800 555 44 33</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Thorat Factory Systems. All rights reserved.</p>
+                <div class="bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
